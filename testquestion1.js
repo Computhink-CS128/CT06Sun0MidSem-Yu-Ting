@@ -13,8 +13,7 @@ fill("black");
 stroke("red");
 strokeWeight(5);
 
-// triangle(x/2+diameter/2, y/2+diameter/2, x/2+diameter/2,  y/2-diameter/2, x/2-diameter/2,  y/2+diameter/2); 
-triangle( x/2+diameter/2,  y/2-diameter/2, x/2-diameter/2,  y/2+diameter/2,x/2+diameter/2, y/2+diameter/2); 
-circle(x/2 - 100, y/2, diameter); 
-rect(x/2 +100, y/2- diameter/2, diameter, diameter);
+triangle(x/2, y/2-diameter/2, x/2+diameter/2, y/2+diameter/2, x/2-diameter/2,  y/2+diameter/2); 
+circle(x/2 -70, y/2, diameter); 
+rect(x/2 +diameter, y/2- diameter/2, diameter, diameter);
 }
